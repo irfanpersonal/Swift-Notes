@@ -54,6 +54,8 @@ ALTER DATABASE myDB READ ONLY = 0;
 -- are 5 digits and 2 decimal digits.
 -- DATE this just returns the date
 -- CREATE TABLE <table_name> ();
+-- List of Attributes: AUTO_INCREMENT
+-- List of Constraints: UNIQUE, NOT NULL, CHECK, DEFAULT, PRIMARY KEY, and FOREIGN KEY.
 CREATE TABLE employees (
 	employee_id INT,
     first_name VARCHAR(50),
