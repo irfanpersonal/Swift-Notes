@@ -490,6 +490,9 @@ SELECT first_name, last_name FROM employees UNION SELECT first_name, last_name F
 -- So to include it just add "ALL" to the "UNION" caluse. So it would look like this.
 SELECT first_name, last_name FROM employees UNION SELECT first_name, last_name FROM customers;
 
+-- Note: The number of columns in all SELECT statements within the UNION must be the same.
+-- And the corresponding columns must have similar data types and be in the same order.
+
 -- A "SELF JOIN" is really any type of join where you join together another copy of a table
 -- to itself. There used to compares rows of the same table. They help with displaying a
 -- heirarchy of data. So if you have a table called customers you can SELF JOIN by making
